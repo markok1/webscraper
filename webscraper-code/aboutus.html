@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website - title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <script>
+      $(document).ready(function () {
+        var sideslider = $("[data-toggle=collapse-side]");
+        var sel = sideslider.attr("data-target");
+        var sel2 = sideslider.attr("data-target-2");
+        sideslider.click(function (event) {
+          $(sel).toggleClass("in");
+          $(sel2).toggleClass("out");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header role="banner" class="navbar navbar-fixed-top navbar-static">
+      <div class="container">
+        <div class="navbar-header">
+          <a
+            data-toggle="collapse-side"
+            data-target=".side-collapse"
+            data-target-2=".side-collapse-container"
+          >
+            <button
+              type="button"
+              class="navbar-toggle pull-right collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              data-target-2=".side-collapse-container"
+              data-target-3=".side-collapse"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+            </button>
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><img src="img/logo.png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="side-collapse in">
+          <nav id="navbar" role="navigation" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="hidden">
+                <a href="#page-top"></a>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#section1"
+                  class="menuitm dropdown-toggle"
+                  data-toggle="dropdown"
+                  ><p>Products & Pricing</p>
+                  <div class="crta"></div
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="product&price.html">Data Specialist</a></li>
+                  <li><a href="product&price.html">Cloud scraper</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="aboutus.html" class="menuitm"
+                  ><p>About us</p>
+                  <div class="crta"></div
+                ></a>
+              </li>
+              <li>
+                <a href="contact.html" class="menuitm"
+                  ><p>Contact us</p>
+                  <div class="crta"></div
+                ></a>
+              </li>
+              <li>
+                <a href="blog.html" class="menuitm"
+                  ><p>Blog</p>
+                  <div class="crta"></div
+                ></a>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#section3"
+                  class="menuitm dropdown-toggle"
+                  data-toggle="dropdown"
+                  ><p>Help</p>
+                  <div class="crta"></div
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="videopage.html">Videos</a></li>
+                  <li><a href="service.html">Tutorials</a></li>
+                  <li><a href="service.html">Forum</a></li>
+                  <li><a href="oursupportcenter.html">FAQ</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#section3" class="btn-menu1">Try Free</a>
+              </li>
+              <li>
+                <a href="#section3" class="btn-menu2">Login</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid aboutus-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>
+              Webscraper is one of the best web scraping companies in the world
+              for a reason
+            </h1>
+            <p>
+              Our customers love us because we really care about their
+              "happiness" and not just their "satisfaction".
+            </p>
+
+            <p>
+              We make significant investments in automation, scalability and
+              process efficiency that <br />
+              allow us to provide an exceptional service at no additional cost
+              to our customers.
+            </p>
+
+            <p>
+              Our customers get a better quality and dependable service at
+              comparable pricing <br />
+              to all other options.
+            </p>
+          </div>
+        </div>
+        <img src="img/aboutusherorightimg.png" class="imghero" alt="" />
+      </div>
+      <div class="bgonbottom"></div>
+    </div>
+
+    <div class="container-fluid customer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Customers - above all else</h1>
+            <p>
+              The core of our company is based on a wonderful customer
+              experience. <br />We have real humans that will talk to you within
+              minutes of your request and help you with your <br />need. Contact
+              us and try it for yourself, you will be impressed by our
+              responsiveness <br />(most of our customers are).
+            </p>
+            <p class="btnlm"><a href="">Let's get started</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="bgonbottom"></div>
+    </div>
+
+    <div class="container-fluid ourteam">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Our Team</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box">
+              <img src="img/aboutusimg1.png" alt="" />
+              <h1>John Doe</h1>
+              <p>Marketing Manager</p>
+              <p><span>john@webscriper.com</span></p>
+              <ul>
+                <li>
+                  <a href=""><img src="img/abusimg1.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""><img src="img/abusimg2.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="box">
+              <img src="img/aboutusimg2.png" alt="" />
+              <h1>Jenny Leo</h1>
+              <p>Creative Director</p>
+              <p><span></span></p>
+              <br />
+              <ul>
+                <li>
+                  <a href=""><img src="img/abusimg1.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""><img src="img/abusimg2.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="box">
+              <img src="img/aboutusimg3.png" alt="" />
+              <h1>Kristaps Jansons</h1>
+              <p>Project Manager</p>
+              <p><span>kristaps@webscreper.com</span></p>
+              <ul>
+                <li>
+                  <a href=""><img src="img/abusimg1.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""><img src="img/abusimg2.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="box">
+              <img src="img/aboutusimg4.png" alt="" />
+              <h1>Beate Luse</h1>
+              <p>Marketing Manager</p>
+              <p><span>john@webscriper.com</span></p>
+              <ul>
+                <li>
+                  <a href=""><img src="img/abusimg1.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""><img src="img/abusimg2.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="box">
+              <img src="img/aboutusimg2.png" alt="" />
+              <h1>Jenny Leo</h1>
+              <p>Creative Director</p>
+              <p><span></span></p>
+              <br />
+              <ul>
+                <li>
+                  <a href=""><img src="img/abusimg1.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""><img src="img/abusimg2.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="box">
+              <img src="img/aboutusimg6.png" alt="" />
+              <h1>Toms Arturs</h1>
+              <p>Customer Support</p>
+              <p><span>info@webscreper.com</span></p>
+              <ul>
+                <li>
+                  <a href=""><img src="img/abusimg1.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""><img src="img/abusimg2.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <ul>
+              <li><h1>Products</h1></li>
+              <li><a href="">Cloud Scraper</a></li>
+              <li><a href="">Custom Project</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Which Web Scraper is Right For You?</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><h1>Company</h1></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Contact Web Scraper</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Become Web Scraper Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><h1>Recources</h1></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Video Tutorials</a></li>
+              <li><a href="">Forum</a></li>
+              <li><a href="">Documentation</a></li>
+              <li><a href="">Test Sites</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><h1>CONTACT US</h1></li>
+              <li><a href="">info@webscraper.io</a></li>
+              <li>+371 24796218</li>
+              <li>
+                Sporta street 2,<br />
+                Riga Latvia, LV-1013
+              </li>
+            </ul>
+            <ul class="smedia">
+              <li>
+                <a href=""><img src="img/fbicon.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="img/twicon.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="img/rsicon.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2>
+              Copyright &copy 2018 <a href="#">Webscraper</a> | All rights
+              reserved
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

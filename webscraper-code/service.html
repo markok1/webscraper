@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website - title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <script>
+      $(document).ready(function () {
+        var sideslider = $("[data-toggle=collapse-side]");
+        var sel = sideslider.attr("data-target");
+        var sel2 = sideslider.attr("data-target-2");
+        sideslider.click(function (event) {
+          $(sel).toggleClass("in");
+          $(sel2).toggleClass("out");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header role="banner" class="navbar navbar-fixed-top navbar-static">
+      <div class="container">
+        <div class="navbar-header">
+          <a
+            data-toggle="collapse-side"
+            data-target=".side-collapse"
+            data-target-2=".side-collapse-container"
+          >
+            <button
+              type="button"
+              class="navbar-toggle pull-right collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              data-target-2=".side-collapse-container"
+              data-target-3=".side-collapse"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+            </button>
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><img src="img/logo.png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="side-collapse in">
+          <nav id="navbar" role="navigation" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="hidden">
+                <a href="#page-top"></a>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#section1"
+                  class="menuitm dropdown-toggle"
+                  data-toggle="dropdown"
+                  ><p>Products & Pricing</p>
+                  <div class="crta"></div
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="product&price.html">Data Specialist</a></li>
+                  <li><a href="product&price.html">Cloud scraper</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="aboutus.html" class="menuitm"
+                  ><p>About us</p>
+                  <div class="crta"></div
+                ></a>
+              </li>
+              <li>
+                <a href="contact.html" class="menuitm"
+                  ><p>Contact us</p>
+                  <div class="crta"></div
+                ></a>
+              </li>
+              <li>
+                <a href="blog.html" class="menuitm"
+                  ><p>Blog</p>
+                  <div class="crta"></div
+                ></a>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#section3"
+                  class="menuitm dropdown-toggle"
+                  data-toggle="dropdown"
+                  ><p>Help</p>
+                  <div class="crta"></div
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="videopage.html">Videos</a></li>
+                  <li><a href="service.html">Tutorials</a></li>
+                  <li><a href="service.html">Forum</a></li>
+                  <li><a href="oursupportcenter.html">FAQ</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#section3" class="btn-menu1">Try Free</a>
+              </li>
+              <li>
+                <a href="#section3" class="btn-menu2">Login</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid service-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Put Your Web Data Extraction on Autopilot</h1>
+            <p>
+              Give us the websites. Tell us which data you need and we will do
+              all the hard work
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid service-page">
+      <div class="bgonbottom"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>We provide a Full Service</h1>
+            <p>
+              We do everything for you - setting up scrapers, running it,
+              cleaning the data, checking the data quality and making sure the
+              data is delivered to you on time. There is no need for complicated
+              Web Scraping tools or software. No need for any training or video
+              tutorials - we do it all for you.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/serviceimg.png" class="img-responsive" alt="" />
+          </div>
+          <div class="col-md-6">
+            <h3>
+              We turn web content into useful data for your next great move
+            </h3>
+            <p class="parawitharrow">
+              <img src="img/leftarrowser.png" alt="" /> Whether you need
+              thousands of record delivered every day or have small one-off
+              project, we deliver.
+            </p>
+
+            <p class="parawitharrow">
+              <img src="img/leftarrowser.png" alt="" /> The best technologies,
+              most experienced team & guaranteed results - at your fingertips
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid contact contact2 servicecontact">
+      <div class="container">
+        <h2 class="title">
+          Use business intelligence and price monitoring
+          <span>to boost sales</span> & <span>profitability</span>
+        </h2>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="wrap">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>
+                    It is so easy just fill this form. <br />
+                    We will deliver free sample for you
+                  </h1>
+                </div>
+                <form action="">
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Name *" />
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Company" />
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Email *" />
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" placeholder="Phone*" />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="rangesliderdiv">
+                      <p>Your budget</p>
+                      <section class="range-slider">
+                        <input
+                          class="sliderc1"
+                          value="00"
+                          min="0"
+                          max="30000"
+                          step="500"
+                          type="range"
+                        />
+                        <input
+                          class="sliderc2"
+                          value="15000"
+                          min="0"
+                          max="30000"
+                          step="500"
+                          type="range"
+                        />
+                        <span class="rangeValues"></span>
+                      </section>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="radiolistdiv">
+                      <p>Frequency</p>
+                      <ul class="radiolist">
+                        <li>
+                          <label>
+                            <input type="radio" name="radio1" value="once" />
+                            <p>once</p>
+                          </label>
+                        </li>
+                        <li>
+                          <label>
+                            <input
+                              type="radio"
+                              name="radio1"
+                              value="monthly"
+                              checked
+                            />
+                            <p>monthly</p>
+                          </label>
+                        </li>
+                        <li>
+                          <label>
+                            <input type="radio" name="radio1" value="weekly" />
+                            <p>weekly</p>
+                          </label>
+                        </li>
+                        <li>
+                          <label>
+                            <input type="radio" name="radio1" value="daily" />
+                            <p>daily</p>
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <textarea
+                      name=""
+                      placeholder="Tell Us about your data needs"
+                    ></textarea>
+                  </div>
+                  <div class="col-md-12">
+                    <button>Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <ul>
+              <li><h1>Products</h1></li>
+              <li><a href="">Cloud Scraper</a></li>
+              <li><a href="">Custom Project</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Which Web Scraper is Right For You?</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><h1>Company</h1></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Contact Web Scraper</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Become Web Scraper Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><h1>Recources</h1></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Video Tutorials</a></li>
+              <li><a href="">Forum</a></li>
+              <li><a href="">Documentation</a></li>
+              <li><a href="">Test Sites</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><h1>CONTACT US</h1></li>
+              <li><a href="">info@webscraper.io</a></li>
+              <li>+371 24796218</li>
+              <li>
+                Sporta street 2,<br />
+                Riga Latvia, LV-1013
+              </li>
+            </ul>
+            <ul class="smedia">
+              <li>
+                <a href=""><img src="img/fbicon.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="img/twicon.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="img/rsicon.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2>
+              Copyright &copy 2018 <a href="#">Webscraper</a> | All rights
+              reserved
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function getVals() {
+        // Get slider values
+        var parent = this.parentNode;
+        var slides = parent.getElementsByTagName("input");
+        var slide1 = parseFloat(slides[0].value);
+        var slide2 = parseFloat(slides[1].value);
+        // Neither slider will clip the other, so make sure we determine which is larger
+        if (slide1 > slide2) {
+          var tmp = slide2;
+          slide2 = slide1;
+          slide1 = tmp;
+        }
+
+        var displayElement = parent.getElementsByClassName("rangeValues")[0];
+        displayElement.innerHTML = "$ " + slide1 + "k - $" + slide2 + "k";
+      }
+
+      window.onload = function () {
+        // Initialize Sliders
+        var sliderSections = document.getElementsByClassName("range-slider");
+        for (var x = 0; x < sliderSections.length; x++) {
+          var sliders = sliderSections[x].getElementsByTagName("input");
+          for (var y = 0; y < sliders.length; y++) {
+            if (sliders[y].type === "range") {
+              sliders[y].oninput = getVals;
+              // Manually trigger event first time to display values
+              sliders[y].oninput();
+            }
+          }
+        }
+      };
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

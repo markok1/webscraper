@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website - title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <script>
+      $(document).ready(function () {
+        var sideslider = $("[data-toggle=collapse-side]");
+        var sel = sideslider.attr("data-target");
+        var sel2 = sideslider.attr("data-target-2");
+        sideslider.click(function (event) {
+          $(sel).toggleClass("in");
+          $(sel2).toggleClass("out");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header role="banner" class="navbar navbar-fixed-top navbar-static">
+      <div class="container">
+        <div class="navbar-header">
+          <a
+            data-toggle="collapse-side"
+            data-target=".side-collapse"
+            data-target-2=".side-collapse-container"
+          >
+            <button
+              type="button"
+              class="navbar-toggle pull-right collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              data-target-2=".side-collapse-container"
+              data-target-3=".side-collapse"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+            </button>
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><img src="img/logo.png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="side-collapse in">
+          <nav id="navbar" role="navigation" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="hidden">
+                <a href="#page-top"></a>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#section1"
+                  class="menuitm dropdown-toggle"
+                  data-toggle="dropdown"
+                  ><p>Products & Pricing</p>
+                  <div class="crta"></div
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="product&price.html">Data Specialist</a></li>
+                  <li><a href="product&price.html">Cloud scraper</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="aboutus.html" class="menuitm"
+                  ><p>About us</p>
+                  <div class="crta"></div
+                ></a>
+              </li>
+              <li>
+                <a href="contact.html" class="menuitm"
+                  ><p>Contact us</p>
+                  <div class="crta"></div
+                ></a>
+              </li>
+              <li>
+                <a href="blog.html" class="menuitm"
+                  ><p>Blog</p>
+                  <div class="crta"></div
+                ></a>
+              </li>
+              <li class="dropdown">
+                <a
+                  href="#section3"
+                  class="menuitm dropdown-toggle"
+                  data-toggle="dropdown"
+                  ><p>Help</p>
+                  <div class="crta"></div
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="videopage.html">Videos</a></li>
+                  <li><a href="service.html">Tutorials</a></li>
+                  <li><a href="service.html">Forum</a></li>
+                  <li><a href="oursupportcenter.html">FAQ</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#section3" class="btn-menu1">Try Free</a>
+              </li>
+              <li>
+                <a href="#section3" class="btn-menu2">Login</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="formenu-here container-fluid"></div>
+
+    <div class="container-fluid blog-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="bloginside">
+              <h1>How to Capture the URL of an Image</h1>
+              <p class="date">August 20, 2018</p>
+              <p class="category">Extract, Technical</p>
+              <p>
+                If you’ve ever visited a web page that features nothing but
+                blocks of text, you’ve likely realized how important images are.
+                Images make web pages easier to read and aesthetically pleasing.
+                They’re also capable to conveying important or complex
+                information in a simple manner. As the saying goes, “a picture
+                is worth a thousand words.” Images are crucial components to a
+                successful web page, but their importance goes beyond the
+                surface level meaning. For many web pages, images can contain
+                interesting and valuable data which, when extracted, can be
+                extremely useful. For this reason, capturing an image URL is a
+                step that needs to be executed regularly.
+              </p>
+              <h2>What is an image URL?</h2>
+              <p>
+                URL stands for uniform resource locator, and put simply, it is
+                the address of something found on the internet. Most commonly, a
+                URL refers to the web address of a web page. It’s what you type
+                into the address bar on your browser.
+              </p>
+              <p>
+                An image URL acts in much the same way; it’s the address of an
+                image found on a web page. In most cases, the image URL will end
+                with PNG, JPG, BMP, or JPG, all specific image formats. Some
+                image URLs may go with the web page URL, but often that is not
+                the case. Just be aware of that fact as you look for the image
+                URL you want to copy.
+              </p>
+
+              <div class="crta"></div>
+              <a class="linkforback" href="blog.html"
+                ><i class="fa fa-angle-left"></i> Go back on blog page</a
+              >
+            </div>
+          </div>
+          <div class="col-md-3 rightsideblog">
+            <div class="searchdiv">
+              <h1>Search</h1>
+              <input type="text" placeholder="Search" />
+            </div>
+            <div class="mostpop">
+              <h1>Most Popular Posts</h1>
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="img/productheroimg.png"
+                    class="img-responsive"
+                    alt=""
+                  />
+                </div>
+                <div class="col-md-8">
+                  <a href="">What is data, and why is it important?</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="img/productheroimg.png"
+                    class="img-responsive"
+                    alt=""
+                  />
+                </div>
+                <div class="col-md-8">
+                  <a href="">What is data, and why is it important?</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="img/productheroimg.png"
+                    class="img-responsive"
+                    alt=""
+                  />
+                </div>
+                <div class="col-md-8">
+                  <a href="">What is data, and why is it important?</a>
+                </div>
+              </div>
+            </div>
+            <div class="popularsec">
+              <h1>Popular Sections</h1>
+              <a href="">Alternative Date</a>
+              <a href="">Alternative Date</a>
+              <a href="">Alternative Date</a>
+              <a href="">Alternative Date</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <ul>
+              <li><h1>Products</h1></li>
+              <li><a href="">Cloud Scraper</a></li>
+              <li><a href="">Custom Project</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Which Web Scraper is Right For You?</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><h1>Company</h1></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Contact Web Scraper</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Become Web Scraper Affiliate</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><h1>Recources</h1></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Video Tutorials</a></li>
+              <li><a href="">Forum</a></li>
+              <li><a href="">Documentation</a></li>
+              <li><a href="">Test Sites</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li><h1>CONTACT US</h1></li>
+              <li><a href="">info@webscraper.io</a></li>
+              <li>+371 24796218</li>
+              <li>
+                Sporta street 2,<br />
+                Riga Latvia, LV-1013
+              </li>
+            </ul>
+            <ul class="smedia">
+              <li>
+                <a href=""><img src="img/fbicon.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="img/twicon.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="img/rsicon.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2>
+              Copyright &copy 2018 <a href="#">Webscraper</a> | All rights
+              reserved
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function getVals() {
+        // Get slider values
+        var parent = this.parentNode;
+        var slides = parent.getElementsByTagName("input");
+        var slide1 = parseFloat(slides[0].value);
+        var slide2 = parseFloat(slides[1].value);
+        // Neither slider will clip the other, so make sure we determine which is larger
+        if (slide1 > slide2) {
+          var tmp = slide2;
+          slide2 = slide1;
+          slide1 = tmp;
+        }
+
+        var displayElement = parent.getElementsByClassName("rangeValues")[0];
+        displayElement.innerHTML = "$ " + slide1 + "k - $" + slide2 + "k";
+      }
+
+      window.onload = function () {
+        // Initialize Sliders
+        var sliderSections = document.getElementsByClassName("range-slider");
+        for (var x = 0; x < sliderSections.length; x++) {
+          var sliders = sliderSections[x].getElementsByTagName("input");
+          for (var y = 0; y < sliders.length; y++) {
+            if (sliders[y].type === "range") {
+              sliders[y].oninput = getVals;
+              // Manually trigger event first time to display values
+              sliders[y].oninput();
+            }
+          }
+        }
+      };
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
